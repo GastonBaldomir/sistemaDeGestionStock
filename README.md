@@ -3,6 +3,9 @@
 ### Sistema de Organización de Stock para Gestión Empresarial
 
 ---
+## Descripción General
+
+El proyecto consiste en el desarrollo de un programa para controlar el stock de productos. Inicialmente fue pensado para el manejo de productos químicos, considerando la importancia de su control y la necesidad de que no sean manipulados por cualquier persona. Posteriormente, se adaptó el sistema para pequeñas y medianas empresas, con el objetivo de facilitar la gestión del inventario. El programa notifica tanto al cliente como al proveedor sobre los productos disponibles, optimizando la comunicación y evitando faltantes o excesos de stock.
 
 ## 1. Introducción
 
@@ -107,6 +110,21 @@ El sistema permite:
 ### 🌍 Otros requisitos no funcionales
 - Soporte multilingüe.  
 - Interfaz personalizable (colores, logos, idioma).  
+
+## 🕒 Presupuesto de Tiempo / Plan de Desarrollo
+
+| Etapa | Duración Estimada | Entregables |
+|-------|--------------------|--------------|
+| **1️⃣ Primera Etapa** | 20–30 días | Entrega del acceso al programa con el **control de inventario** funcional. Se incluirá la base de datos y las operaciones principales (altas, bajas, modificaciones y consultas). |
+| **2️⃣ Segunda Etapa** | 2 meses | Incorporación de **vistas adicionales** y mejoras en el **diseño visual** (interfaz de usuario más intuitiva y atractiva). |
+| **3️⃣ Tercera Etapa** | 5 meses (total acumulado) | Proyecto **completo**, con todas las funcionalidades integradas, pruebas finales, documentación técnica y optimización general. |
+
+---
+
+### ⏳ Resumen del Cronograma
+- **Inicio:** _[agregar fecha de inicio]_  
+- **Duración total estimada:** ~5 meses  
+- **Objetivo final:** Entregar un sistema de gestión completo, estable y visualmente mejorado.
 
 ---
 
