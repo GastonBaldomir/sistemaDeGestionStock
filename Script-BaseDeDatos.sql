@@ -75,6 +75,16 @@ CREATE TABLE Movimientos (
 );
 GO
 
+--Agregar id_usuario como Clave foránea para saber que usuario hizo cada movimiento.
+
+	ALTER TABLE Movimientos
+	ADD Id_usuario INT;
+
+	ALTER TABLE Movimientos
+	ADD CONSTRAINT FK_Id_usuario
+	FOREIGN KEY (Id_usuario)
+	REFERENCES Usuarios(id_usuario);
+
 -- =========================================
 -- DATOS DE EJEMPLO
 -- =========================================
