@@ -1,4 +1,4 @@
-Algoritmo sin_titulo
+Algoritmo 
 	Dimensionar titulo[100] 
 	Dimensionar cantidad[100] 
 	Dimensionar fecha[100] 

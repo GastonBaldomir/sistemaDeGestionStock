@@ -6,7 +6,7 @@ USE ControlStock;
 GO
 
 -- =========================================
--- TABLA: Categor�as
+-- TABLA: Categorías
 -- =========================================
 CREATE TABLE Categorias (
     id_categoria INT IDENTITY(1,1) PRIMARY KEY,
@@ -52,7 +52,7 @@ GO
 
 -- =========================================
 -- TABLA: ProductoProveedor
--- (Relaci�n muchos a muchos entre Productos y Proveedores)
+-- (Relación muchos a muchos entre Productos y Proveedores)
 -- =========================================
 CREATE TABLE ProductoProveedor (
     id_producto INT,
@@ -63,7 +63,7 @@ CREATE TABLE ProductoProveedor (
 );
 -- =========================================
 -- TABLA: Entradas y Salidas de Productos
--- (Movimiento b�sico de stock)
+-- (Movimiento básico de stock)
 -- =========================================
 CREATE TABLE Movimientos (
     id_movimiento INT IDENTITY(1,1) PRIMARY KEY,
@@ -89,8 +89,8 @@ GO
 -- DATOS DE EJEMPLO
 -- =========================================
 INSERT INTO Categorias (nombre, descripcion)
-VALUES ('Ferreter�a', 'Herramientas y materiales de ferreter�a'),
-       ('Electr�nica', 'Art�culos el�ctricos y electr�nicos');
+VALUES ('Ferreteria', 'Herramientas y materiales de ferreteria'),
+       ('Electrónica', 'Artículos eléctricos y electrónicos');
 
 INSERT INTO Productos (nombre, descripcion, precio, stock, id_categoria)
 VALUES ('Destornillador', 'Punta plana', 250.00, 50, 1),
@@ -103,7 +103,7 @@ VALUES ('Proveedor A', '1122334455', 'proveedorA@mail.com'),
 
 INSERT INTO Usuarios (nombre, rol)
 VALUES ('Administrador', 'Admin'),
-       ('Juan P�rez', 'Empleado');
+       ('Juan Pérez', 'Empleado');
 
 INSERT INTO Movimientos (tipo, id_producto, cantidad)
 VALUES ('ENTRADA', 1, 10),
